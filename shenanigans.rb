@@ -10,7 +10,7 @@ class Shenanigans
   def first_trait
     @trait1
   end
-  def sencond_trait
+  def second_trait
     @trait2
   end
   def third_trait
@@ -19,14 +19,14 @@ class Shenanigans
 end
 
 alice = Shenanigans.new("brown curly hair","locket necklace","hair to the side")
-  puts "#{alice.shared_traits}. However, Alice has #{alice.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
+  puts "#{alice.shared_traits}. However, Alice has #{alice.first_trait}, is wearing a #{alice.second_trait} and has her #{a.third_trait}"
   
 jessica = Shenanigans.new("straight black hair","marble necklace","hair down")
-puts "#{jessica.shared_traits}. However, Jessica has #{jessica.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
+puts "#{jessica.shared_traits}. However, Jessica has #{jessica.first_trait}, is wearing a #{second_trait} and has her #{third_trait}"
 
 sam =Shenanigans.new("wavy black hair","coin necklace","headband")
-puts "#{sam.shared_traits}. However, Sam has #{sam.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
+puts "#{sam.shared_traits}. However, Sam has #{sam.first_trait}, is wearing a #{sam.second_trait} and has her #{sam.third_trait}"
 lily = Shenanigans.new("red curly hair","layered necklaces","hair put")
-  puts "#{lily.shared_traits}. However, Lily has #{lily.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
+  puts "#{lily.shared_traits}. However, Lily has #{lily.first_trait}, is wearing a #{lily.second_trait} and has her #{lily.third_trait}"
 
 
