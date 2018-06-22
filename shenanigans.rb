@@ -13,15 +13,18 @@ class Shenanigans
   def sencond_trait
     @trait2
   end
-  def is_it_fuzzy
+  def third_trait
     @trait3
   end
 end
 
-tiger = Cats.new("very cute","pretty fuzzy","really mean")
-  puts "is the tiger cute? #{tiger.is_it_cute}"
+alice = Shenanigans.new("brown curly hair","locket necklace","hair to the side")
+  puts ""
   
-garfield = Cats.new("kinda","not really","yes")
-  puts "Is garfield mean? #{garfield.is_it_mean}"
-  puts "Is garfield fuzzy? #{garfield.is_it_fuzzy}"
-  puts "#{garfield.basic_facts}"
+jessica = Shenanigans.new("straight black hair","marble necklace","hair down")
+ puts ""
+
+sam =Shenanigans.new("wavy black hair","coin necklace","headband")
+  puts ""
+lily = Shenanigans.new("red curly hair","layered necklaces","hair put")
+  puts ""
