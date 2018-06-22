@@ -7,4 +7,5 @@ class Book
     @pages=pages
     @genre=genre
   end 
+
 end
