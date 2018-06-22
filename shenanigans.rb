@@ -19,7 +19,7 @@ class Shenanigans
 end
 
 alice = Shenanigans.new("brown curly hair","locket necklace","hair to the side")
-  puts ""
+  puts "#{alice"
   
 jessica = Shenanigans.new("straight black hair","marble necklace","hair down")
  puts ""
