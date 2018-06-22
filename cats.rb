@@ -1,11 +1,11 @@
-class Cats
-  def initialize(cute, fuzzy, mean)
+class Shenanigans
+  def initialize(trait1, trait2, trait3)
     @cute=cute
     @fuzzy=fuzzy
     @mean=mean
   end
-  def basic_facts
-    puts "This cat has 30 Teeth, is an Obligatory Carnivore and has curved nails"
+  def shared_traits
+    puts "We are all girls, 
   end
   def is_it_cute
     @cute
