@@ -1,20 +1,20 @@
 class Shenanigans
   def initialize(trait1, trait2, trait3)
-    @cute=cute
-    @fuzzy=fuzzy
-    @mean=mean
+    @trait1=trait1
+    @trait2=trait2
+    @trait3=trait3
   end
   def shared_traits
-    puts "We are all girls, 
+    puts "We are all girls, we are all in High School, wearing necklaces and earrings" 
   end
-  def is_it_cute
-    @cute
+  def first_trait
+    @trait1
   end
-  def is_it_mean
-    @mean
+  def sencond_trait
+    @trait2
   end
   def is_it_fuzzy
-    @fuzzy
+    @trait3
   end
 end
 
