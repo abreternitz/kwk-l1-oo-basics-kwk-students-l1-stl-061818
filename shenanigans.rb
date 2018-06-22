@@ -19,10 +19,10 @@ class Shenanigans
 end
 
 alice = Shenanigans.new("brown curly hair","locket necklace","hair to the side")
-  puts "#{alice.shared_traits}. However, Alice has #{alice.first_trait}, is wearing a #{alice.second_trait} and has her #{a.third_trait}"
+  puts "#{alice.shared_traits}. However, Alice has #{alice.first_trait}, is wearing a #{alice.second_trait} and has her #{alice.third_trait}"
   
 jessica = Shenanigans.new("straight black hair","marble necklace","hair down")
-puts "#{jessica.shared_traits}. However, Jessica has #{jessica.first_trait}, is wearing a #{second_trait} and has her #{third_trait}"
+puts "#{jessica.shared_traits}. However, Jessica has #{jessica.first_trait}, is wearing a #{jessica.second_trait} and has her #{jessica.third_trait}"
 
 sam =Shenanigans.new("wavy black hair","coin necklace","headband")
 puts "#{sam.shared_traits}. However, Sam has #{sam.first_trait}, is wearing a #{sam.second_trait} and has her #{sam.third_trait}"
