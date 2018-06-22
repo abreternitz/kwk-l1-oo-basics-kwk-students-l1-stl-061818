@@ -5,7 +5,7 @@ class Shenanigans
     @trait3=trait3
   end
   def shared_traits
-    puts "We are all girls, we are all in High School, wearing necklaces and earrings" 
+    puts "At the table, we are all girls, we are all in High School, wearing necklaces and earrings" 
   end
   def first_trait
     @trait1
@@ -19,12 +19,14 @@ class Shenanigans
 end
 
 alice = Shenanigans.new("brown curly hair","locket necklace","hair to the side")
-  puts "#{alice"
+  puts "#{alice.shared_traits}. However, Alice has #{alice.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
   
 jessica = Shenanigans.new("straight black hair","marble necklace","hair down")
- puts ""
+puts "#{jessica.shared_traits}. However, Jessica has #{jessica.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
 
 sam =Shenanigans.new("wavy black hair","coin necklace","headband")
-  puts ""
+puts "#{sam.shared_traits}. However, Sam has #{sam.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
 lily = Shenanigans.new("red curly hair","layered necklaces","hair put")
-  puts ""
+  puts "#{lily.shared_traits}. However, Lily has #{lily.first_trait}, is wearing a #{sencond_trait} and has her #{third_trait}"
+
+
